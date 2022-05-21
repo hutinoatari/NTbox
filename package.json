@@ -1,0 +1,13 @@
+{
+    "name": "nt-box",
+    "version": "0.0.0",
+    "main": "./index.js",
+    "scripts": {
+        "start": "./node_modules/.bin/electron .",
+        "build-unix": "electron-builder --linux --x64"
+    },
+    "devDependencies": {
+        "electron": "^18.2.4",
+        "electron-builder": "^23.0.3"
+    }
+}
